@@ -1,0 +1,23 @@
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.exe
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.deps.json
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.runtimeconfig.json
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.runtimeconfig.dev.json
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.pdb
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csprojAssemblyReference.cache
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.AssemblyInfoInputs.cache
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.AssemblyInfo.cs
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.CoreCompileInputs.cache
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.CopyComplete
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.dll
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.pdb
+G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.genruntimeconfig.cache
