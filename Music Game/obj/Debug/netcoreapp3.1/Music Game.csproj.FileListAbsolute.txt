@@ -21,3 +21,4 @@ G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.Co
 G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.dll
 G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.pdb
 G:\music game\Music Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.genruntimeconfig.cache
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Content\ball.xnb

@@ -6,6 +6,8 @@ namespace Music_Game
 {
     public class Game1 : Game
     {
+        Texture2D ballTexture;
+
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
@@ -26,7 +28,7 @@ namespace Music_Game
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            ballTexture = Content.Load<Texture2D>("ball");
             // TODO: use this.Content to load your game content here
         }
 
@@ -44,6 +46,9 @@ namespace Music_Game
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
+            _spriteBatch.Begin();
+            _spriteBatch.Draw(ballTexture, new Vector2(0, 0), Color.White);
+            _spriteBatch.End();
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
