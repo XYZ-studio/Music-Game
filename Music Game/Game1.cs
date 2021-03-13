@@ -9,7 +9,7 @@ namespace Music_Game
         Texture2D ballTexture;
         Vector2 ballPosition;
         float ballSpeed;
-
+        SpriteFont font;
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
 
@@ -33,6 +33,7 @@ namespace Music_Game
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             ballTexture = Content.Load<Texture2D>("ball");
+            font = Content.Load<SpriteFont>("File");
             // TODO: use this.Content to load your game content here
         }
 
@@ -74,8 +75,10 @@ namespace Music_Game
                 SpriteEffects.None,
                 0f
             );
+            
+            _spriteBatch.DrawString(font, (1/gameTime.ElapsedGameTime.TotalSeconds).ToString(), ballPosition, Color.White);
             _spriteBatch.End();
-
+            
             // TODO: Add your drawing code here
 
             base.Draw(gameTime);
