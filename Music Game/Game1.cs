@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 namespace Music_Game
 {
@@ -8,6 +9,7 @@ namespace Music_Game
     {
         Texture2D ballTexture;
         Vector2 ballPosition;
+        Vector2 FPS;
         float ballSpeed;
         SpriteFont font;
         private GraphicsDeviceManager _graphics;
@@ -16,6 +18,8 @@ namespace Music_Game
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
+            
+            _graphics.ApplyChanges();
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
@@ -23,9 +27,18 @@ namespace Music_Game
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width - 2;
+            _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 2;
+            //this.Window.Position = new Point(200, 50);
+            this.Window.IsBorderless = true;
+            //_graphics.IsFullScreen = true;
+
+            _graphics.ApplyChanges();
             ballPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2,
                 _graphics.PreferredBackBufferHeight / 2);
+            FPS = new Vector2(10, 10);
             ballSpeed = 100f;
+
             base.Initialize();
         }
 
@@ -61,14 +74,14 @@ namespace Music_Game
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(new Color(30, 30, 30));
+            _spriteBatch.Begin(SpriteSortMode.Deferred, BlendState.AlphaBlend);
 
-            _spriteBatch.Begin();
             _spriteBatch.Draw(
                 ballTexture,
                 ballPosition,
                 null,
-                Color.White,
+                new Color(255,255,255,0.5f),
                 0f,
                 new Vector2(ballTexture.Width / 2, ballTexture.Height / 2),
                 Vector2.One,
@@ -76,7 +89,7 @@ namespace Music_Game
                 0f
             );
             
-            _spriteBatch.DrawString(font, (1/gameTime.ElapsedGameTime.TotalSeconds).ToString(), ballPosition, Color.White);
+            _spriteBatch.DrawString(font, ((int)Math.Ceiling(1000 / (float)gameTime.ElapsedGameTime.TotalMilliseconds)).ToString(), FPS, Color.White);
             _spriteBatch.End();
             
             // TODO: Add your drawing code here
