@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>G:/music game/Music Game/Music Game/Content/File.spritefont</SourceFile>
-  <SourceTime>2021-03-19T20:09:01.3012983+08:00</SourceTime>
+  <SourceTime>2021-03-19T20:11:21.0025543+08:00</SourceTime>
   <DestFile>G:/music game/Music Game/Music Game/Content/bin/DesktopGL/Content/File.xnb</DestFile>
-  <DestTime>2021-03-19T20:09:03.1681327+08:00</DestTime>
+  <DestTime>2021-03-19T20:11:22.5719761+08:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+08:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
