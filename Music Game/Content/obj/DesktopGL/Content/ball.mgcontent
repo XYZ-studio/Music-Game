@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>G:/music game/Music Game/Music Game/Content/ball.png</SourceFile>
-  <SourceTime>2021-03-13T16:25:21.5541014+08:00</SourceTime>
+  <SourceTime>2021-03-19T20:09:01.3143015+08:00</SourceTime>
   <DestFile>G:/music game/Music Game/Music Game/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2021-03-13T16:26:35.3363176+08:00</DestTime>
+  <DestTime>2021-03-19T20:09:02.9420817+08:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+08:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
