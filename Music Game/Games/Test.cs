@@ -12,8 +12,9 @@ namespace Music_Game
         SpriteFont font;
         Vector2 FPS;
         Vector2 Text;
-        public Test(GraphicsDeviceManager _graphics, ContentManager Content)
+        public Test(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice)
         {
+
             FPS = new Vector2(10, 10);
             font = Content.Load<SpriteFont>("File");
             Text = new Vector2(30, 30);
