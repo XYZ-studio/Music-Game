@@ -9,6 +9,7 @@ namespace Music_Game
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private Game_Scenes currentScene;
+
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -30,7 +31,7 @@ namespace Music_Game
 
             _graphics.ApplyChanges();
 
-            currentScene = new Start(_graphics, Content);
+            currentScene = new Start(_graphics, Content, GraphicsDevice);
             base.Initialize();
         }
 

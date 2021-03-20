@@ -2,14 +2,14 @@
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MonoGame.Extended;
+
 
 namespace Music_Game
 {
     class Start :Game_Scenes
     {
+        private GraphicsDevice GraphicsDevice;
         private GraphicsDeviceManager _graphics;
         private ContentManager _content;
         private Texture2D ballTexture;
@@ -17,8 +17,10 @@ namespace Music_Game
         private Vector2 FPS;
         private float alpha;
         private SpriteFont font;
-        public Start(GraphicsDeviceManager _graphics, ContentManager Content)
+
+        public Start(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice)
         {
+            this.GraphicsDevice = GraphicsDevice;
             this._graphics = _graphics;
             this._content = Content;
             ballPosition = new Vector2(_graphics.PreferredBackBufferWidth / 2,
@@ -33,7 +35,7 @@ namespace Music_Game
         {
             if (alpha < 0)
             {
-                return new Test(_graphics, _content);
+                return new Test(_graphics, _content, GraphicsDevice);
             }
             var kstate = Keyboard.GetState();
             alpha -= (float)0.5 * (float)gameTime.ElapsedGameTime.TotalSeconds;
@@ -66,6 +68,8 @@ namespace Music_Game
             //);
 
             spriteBatch.DrawString(font, "XYZ Studio ", ballPosition, Color.White * alpha);
+            spriteBatch.DrawCircle(50, 50, 30, 20, Color.White, 4);
+            
         }
     }
 }
