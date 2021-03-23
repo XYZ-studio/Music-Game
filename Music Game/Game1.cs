@@ -8,8 +8,7 @@ namespace Music_Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-        private Game_Scenes currentScene;
-
+        private ScreenManager screenManager;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -28,10 +27,11 @@ namespace Music_Game
             //this.Window.Position = new Point(200, 50);
             this.Window.IsBorderless = true;
             //_graphics.IsFullScreen = true;
-
             _graphics.ApplyChanges();
-
-            currentScene = new Start(_graphics, Content, GraphicsDevice);
+            screenManager = new ScreenManager(_graphics, Content, GraphicsDevice);
+            screenManager.AddScene(new Start());
+            screenManager.AddScene(new Test());
+            screenManager.Start();
             base.Initialize();
         }
 
@@ -44,11 +44,7 @@ namespace Music_Game
         protected override void Update(GameTime gameTime)
         {
 
-            Game_Scenes? Scene =  currentScene.Update(gameTime);
-            if (Scene != null)
-            {
-                currentScene = Scene;
-            }
+            screenManager.Update(gameTime);
             base.Update(gameTime);
         }
 
@@ -56,7 +52,8 @@ namespace Music_Game
         {
             GraphicsDevice.Clear(new Color(30, 30, 30));
             _spriteBatch.Begin(SpriteSortMode.Immediate, BlendState.AlphaBlend);
-            currentScene.Draw(_spriteBatch, gameTime);
+            screenManager.BackgroundScreen(_spriteBatch, gameTime);
+            screenManager.Draw(_spriteBatch, gameTime);
 
             _spriteBatch.End();
 
