@@ -29,8 +29,7 @@ namespace Music_Game
             //_graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
             screenManager = new ScreenManager(_graphics, Content, GraphicsDevice);
-            screenManager.AddScene(new Start());
-            screenManager.AddScene(new Test());
+            Screen_Loading_Manager.Screen_Loading(screenManager);
             screenManager.Start();
             base.Initialize();
         }
