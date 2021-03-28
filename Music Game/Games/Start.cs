@@ -18,7 +18,7 @@ namespace Music_Game
         private float alpha;
         private SpriteFont font;
         private ScreenManager screenManager;
-        public override void Init(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice, ScreenManager screenManager)
+        public override void Init(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice, ScreenManager screenManager, Game game)
         {
             this.screenManager = screenManager;
             this.GraphicsDevice = GraphicsDevice;

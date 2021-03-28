@@ -1,17 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "7fJ2j9k73mzyD5W/gTBliB4AaUb25AJeWGxtJRJF3ejESMcC+PtjHyB3aPLYpOCWRqxmDtzDiqmSKfp3pbQ4Zg==",
+  "dgSpecHash": "NhHXK8gElqhdO/6w7r5q2RYmTZ9pVL3NatC4eY/xWqu4rP7lGJiY2bpQ+jPH8TsPipa61YkrHL0ADOGCLRLi7w==",
   "success": true,
   "projectFilePath": "G:\\music game\\Music Game\\Music Game\\Music Game.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Roy\\.nuget\\packages\\apos.gui\\1.0.3-alpha\\apos.gui.1.0.3-alpha.nupkg.sha512",
+    "C:\\Users\\Roy\\.nuget\\packages\\apos.input\\2.3.1\\apos.input.2.3.1.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\autofac\\5.2.0\\autofac.5.2.0.nupkg.sha512",
+    "C:\\Users\\Roy\\.nuget\\packages\\cyotek.drawing.bitmapfont\\2.0.1\\cyotek.drawing.bitmapfont.2.0.1.nupkg.sha512",
+    "C:\\Users\\Roy\\.nuget\\packages\\fontstashsharp.monogame\\0.9.2\\fontstashsharp.monogame.0.9.2.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.extended\\3.8.0\\monogame.extended.3.8.0.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.extended.content.pipeline\\3.8.0\\monogame.extended.content.pipeline.3.8.0.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.extended.graphics\\3.8.0\\monogame.extended.graphics.3.8.0.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.extended.tiled\\3.8.0\\monogame.extended.tiled.3.8.0.nupkg.sha512",
     "C:\\Users\\Roy\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\Roy\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Roy\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Roy\\.nuget\\packages\\stbimagesharp\\2.22.4\\stbimagesharp.2.22.4.nupkg.sha512",
+    "C:\\Users\\Roy\\.nuget\\packages\\stbtruetypesharp\\1.24.7\\stbtruetypesharp.1.24.7.nupkg.sha512"
   ],
   "logs": []
 }

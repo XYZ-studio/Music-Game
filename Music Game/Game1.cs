@@ -28,7 +28,7 @@ namespace Music_Game
             this.Window.IsBorderless = true;
             //_graphics.IsFullScreen = true;
             _graphics.ApplyChanges();
-            screenManager = new ScreenManager(_graphics, Content, GraphicsDevice);
+            screenManager = new ScreenManager(this, _graphics);
             Screen_Loading_Manager.Screen_Loading(screenManager);
             screenManager.Start();
             base.Initialize();

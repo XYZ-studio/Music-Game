@@ -10,7 +10,7 @@ namespace Music_Game
     public abstract class Game_Scene
     {
 
-        public virtual void Init(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice, ScreenManager screenManager)
+        public virtual void Init(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice, ScreenManager screenManager, Game game)
         {
 
         }
@@ -82,18 +82,20 @@ namespace Music_Game
         private ContentManager _content;
         private Dictionary<String, Game_Scene> ScreensMap;
         private Game_Scene currentScene;
+        private Game game;
 
-        public ScreenManager(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice)
+        public ScreenManager(Game game, GraphicsDeviceManager _graphics)
         {
-            this.GraphicsDevice = GraphicsDevice;
+            this.game = game;
+            GraphicsDevice = game.GraphicsDevice;
             this._graphics = _graphics;
-            _content = Content;
+            _content = game.Content;
             ScreensMap = new Dictionary<String, Game_Scene>();
         }
 
         public void AddScene(Game_Scene Scene)
         {
-            Scene.Init(_graphics, _content, GraphicsDevice, this);
+            Scene.Init(_graphics, _content, GraphicsDevice, this, game);
             ScreensMap.Add(Scene.SceneName(), Scene);
         }
 

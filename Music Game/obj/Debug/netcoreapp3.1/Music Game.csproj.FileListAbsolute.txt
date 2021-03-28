@@ -28,3 +28,9 @@ G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.dl
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.Graphics.dll
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.Tiled.dll
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Apos.Input.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
