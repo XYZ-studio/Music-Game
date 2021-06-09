@@ -9,6 +9,7 @@ namespace Music_Game
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         private ScreenManager screenManager;
+        public int windowWidth = 1028, windowHeight = 1028;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -22,8 +23,9 @@ namespace Music_Game
         protected override void Initialize()
         {
 
-            _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width - 2;
-            _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 2;
+           // _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width - 2;
+           //_graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 2;
+            _graphics.IsFullScreen =true;
             //this.Window.Position = new Point(200, 50);
             this.Window.IsBorderless = true;
             //_graphics.IsFullScreen = true;

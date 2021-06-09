@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>G:/music game/Music Game/Music Game/Content/ball.png</SourceFile>
-  <SourceTime>2021-03-19T20:17:41.6886106+08:00</SourceTime>
-  <DestFile>G:/music game/Music Game/Music Game/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
-  <DestTime>2021-03-19T20:17:42.9214837+08:00</DestTime>
+  <SourceFile>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/ball.png</SourceFile>
+  <SourceTime>2021-06-08T17:54:21.3737022+08:00</SourceTime>
+  <DestFile>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/ball.xnb</DestFile>
+  <DestTime>2021-06-08T18:14:37.5278224+08:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2020-08-10T16:17:54+08:00</ImporterTime>
+  <ImporterTime>2020-08-11T00:17:54+08:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2020-08-10T16:17:54+08:00</ProcessorTime>
+  <ProcessorTime>2020-08-11T00:17:54+08:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

@@ -34,3 +34,39 @@ G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\Cyotek.Drawing.Bitma
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\StbImageSharp.dll
 G:\music game\Music Game\Music Game\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Content\ball.xnb
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Content\File.xnb
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.exe
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.deps.json
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.runtimeconfig.json
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.runtimeconfig.dev.json
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Music Game.pdb
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Apos.Gui.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Apos.Input.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Autofac.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Cyotek.Drawing.BitmapFont.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\FontStashSharp.MonoGame.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.Graphics.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Extended.Tiled.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\StbImageSharp.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\StbTrueTypeSharp.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.AssemblyReference.cache
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.AssemblyInfoInputs.cache
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.AssemblyInfo.cs
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.CoreCompileInputs.cache
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.csproj.CopyComplete
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.dll
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.pdb
+C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.genruntimeconfig.cache
