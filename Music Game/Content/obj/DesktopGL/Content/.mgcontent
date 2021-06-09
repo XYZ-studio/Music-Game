@@ -4,8 +4,8 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>G:/music game/Music Game/Music Game/Content/ball.png</File>
-    <File>G:/music game/Music Game/Music Game/Content/File.spritefont</File>
+    <File>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/ball.png</File>
+    <File>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/File.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

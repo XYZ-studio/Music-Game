@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>G:/music game/Music Game/Music Game/Content/File.spritefont</SourceFile>
-  <SourceTime>2021-03-20T01:34:47.7396531+08:00</SourceTime>
-  <DestFile>G:/music game/Music Game/Music Game/Content/bin/DesktopGL/Content/File.xnb</DestFile>
-  <DestTime>2021-03-20T14:18:36.5041566+08:00</DestTime>
+  <SourceFile>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/File.spritefont</SourceFile>
+  <SourceTime>2021-06-08T17:54:21.3737022+08:00</SourceTime>
+  <DestFile>C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/File.xnb</DestFile>
+  <DestTime>2021-06-08T18:14:37.7102461+08:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
-  <ImporterTime>2020-08-10T16:17:54+08:00</ImporterTime>
+  <ImporterTime>2020-08-11T00:17:54+08:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>
-  <ProcessorTime>2020-08-10T16:17:54+08:00</ProcessorTime>
+  <ProcessorTime>2020-08-11T00:17:54+08:00</ProcessorTime>
   <Parameters>
     <Key>PremultiplyAlpha</Key>
     <Value>True</Value>
