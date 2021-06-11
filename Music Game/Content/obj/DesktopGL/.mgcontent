@@ -4,13 +4,11 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
+    <File>C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/music1.mp3</File>
     <File>C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/ball.png</File>
     <File>C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/File.spritefont</File>
-    <File>C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/music1.mp3</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
   </DestFiles>
 </SourceFileCollection>

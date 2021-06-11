@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Music Game",
+    "\\Music Game\\Content"
   ],
-  "SelectedNode": "\\Music Game.sln",
+  "SelectedNode": "\\Music Game\\Game1.cs",
   "PreviewInSolutionExplorer": false
 }

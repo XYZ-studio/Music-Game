@@ -17,6 +17,8 @@ namespace Music_Game
         Game game;
         bool _showFun = false;
         IMGUI _ui;
+        
+        
         public override void Init(GraphicsDeviceManager _graphics, ContentManager Content, GraphicsDevice GraphicsDevice, ScreenManager screenManager, Game game)
         {
             this.game = game;
@@ -34,6 +36,7 @@ namespace Music_Game
 
         public override void Update(GameTime gameTime)
         {
+
             GuiHelper.UpdateSetup();
             _ui.UpdateAll(gameTime);
 
@@ -49,7 +52,7 @@ namespace Music_Game
             }
             if (Button.Put("Quit").Clicked)
             {
-                //Exit();
+                game.Exit();
             }
             Panel.Pop();
 

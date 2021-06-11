@@ -1,3 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/ball.png","C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.30086
-"C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/File.spritefont","C:/Users/tea91/Source/Repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/File.xnb","FontDescriptionProcessor","SpriteFontContent",2019,21538,0.1695872
+"C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/ball.png","C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",8368,16469,0.5212345
+"C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/File.spritefont","C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/File.xnb","FontDescriptionProcessor","SpriteFontContent",2020,21538,0.2283541
+"C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/music1.mp3","C:/Users/tea91/source/repos/XYZ-studio/Music-Game/Music Game/Content/bin/DesktopGL/Content/music1.xnb","SongProcessor","SongContent",3534262,124,3.836774

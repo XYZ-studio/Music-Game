@@ -70,3 +70,5 @@ C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreap
 C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.dll
 C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.pdb
 C:\Users\tea91\Source\Repos\XYZ-studio\Music-Game\Music Game\obj\Debug\netcoreapp3.1\Music Game.genruntimeconfig.cache
+C:\Users\tea91\source\repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Content\music1.ogg
+C:\Users\tea91\source\repos\XYZ-studio\Music-Game\Music Game\bin\Debug\netcoreapp3.1\Content\music1.xnb

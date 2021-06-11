@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MpX3pYnT4H94+VqhXv86K4xAd4iDKIp+dGskQn9n6TrLF6pjs4YbIqoNYsF12oBoWzoL+InadcKLLoXIYaa4og==",
+  "dgSpecHash": "RS8J6Cg8vdpxru8ZT7VwlGnu25RZA8K6zD/H767waeWUSXp+WG9re6vaubyqeExpJmVuFUlP62rhtLnQkFuhqw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tea91\\Source\\Repos\\XYZ-studio\\Music-Game\\Music Game\\Music Game.csproj",
+  "projectFilePath": "C:\\Users\\tea91\\source\\repos\\XYZ-studio\\Music-Game\\Music Game\\Music Game.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tea91\\.nuget\\packages\\apos.gui\\1.0.3-alpha\\apos.gui.1.0.3-alpha.nupkg.sha512",
     "C:\\Users\\tea91\\.nuget\\packages\\apos.input\\2.3.1\\apos.input.2.3.1.nupkg.sha512",

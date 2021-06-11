@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-
+using Microsoft.Xna.Framework.Media;
 
 namespace Music_Game
 {
@@ -10,6 +10,7 @@ namespace Music_Game
         private SpriteBatch _spriteBatch;
         private ScreenManager screenManager;
         public int windowWidth = 1028, windowHeight = 1028;
+        public Song music;
         public Game1()
         {
             _graphics = new GraphicsDeviceManager(this);
@@ -23,9 +24,9 @@ namespace Music_Game
         protected override void Initialize()
         {
 
-           // _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width - 2;
-           //_graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 2;
-            _graphics.IsFullScreen =true;
+          _graphics.PreferredBackBufferWidth = GraphicsDevice.DisplayMode.Width - 2;
+          _graphics.PreferredBackBufferHeight = GraphicsDevice.DisplayMode.Height - 2;
+
             //this.Window.Position = new Point(200, 50);
             this.Window.IsBorderless = true;
             //_graphics.IsFullScreen = true;
@@ -39,7 +40,9 @@ namespace Music_Game
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            music = Content.Load<Song>(@"music1");
+            
+            MediaPlayer.Play(music);
         }
 
         protected override void Update(GameTime gameTime)

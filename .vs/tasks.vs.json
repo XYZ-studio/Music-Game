@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "工作-Game1",
+      "appliesTo": "Music Game/Game1.cs",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "工作-Music-Game",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
