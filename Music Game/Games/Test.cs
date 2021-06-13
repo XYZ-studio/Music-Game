@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Graphics;
 using System;
 using System.Collections.Generic;
 using System.Text;
-
+using Microsoft.Xna.Framework.Media;
 namespace Music_Game
 {
     class Test : Game_Scene
@@ -52,7 +52,8 @@ namespace Music_Game
             }
             if (Button.Put("Quit").Clicked)
             {
-                game.Exit();
+                    game.Exit();
+           
             }
             Panel.Pop();
 
@@ -69,5 +70,11 @@ namespace Music_Game
             spriteBatch.DrawString(font, ((int)Math.Ceiling(1000 / (float)gameTime.ElapsedGameTime.TotalMilliseconds)).ToString(), FPS, Color.White);
             spriteBatch.DrawString(font, ((int)Math.Ceiling(1000 / (float)gameTime.ElapsedGameTime.TotalMilliseconds)).ToString(), Text, Color.White);
         }
+        public Album Album {
+            //擷取專輯
+
+            get;
+        } 
+
     }
 }

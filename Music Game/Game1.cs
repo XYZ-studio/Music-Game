@@ -19,7 +19,7 @@ namespace Music_Game
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
         }
-
+        
 
         protected override void Initialize()
         {
@@ -43,8 +43,16 @@ namespace Music_Game
             music = Content.Load<Song>(@"music1");
             
             MediaPlayer.Play(music);
+            
         }
-
+        public void ChangeMusic(Song song){
+            if (MediaPlayer.Queue.ActiveSong!=song) { 
+            
+            
+            }
+        
+        
+        }
         protected override void Update(GameTime gameTime)
         {
 
